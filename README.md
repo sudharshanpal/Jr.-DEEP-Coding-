@@ -7,7 +7,7 @@ Jr. DEEP Coding is a crash course that will provide students with the opportunit
 ### By the end of this course, students will be able to:
 
 - Understand fundamental coding concepts such as variables, loops, conditionals, and functions  
-- Demonstrate proficiency in writing basic programs using beginner-friendly languages (e.g., Python, Scratch, or JavaScript)  
+- Demonstrate proficiency in writing basic programs using beginner-friendly languages (e.g., Python or Scratch)  
 - Apply logical thinking to solve simple computational problems  
 - Create interactive projects that showcase their understanding of programming concepts  
 - Gain confidence in navigating and using coding environments and tools  
