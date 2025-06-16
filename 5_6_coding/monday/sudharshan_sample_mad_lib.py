@@ -27,3 +27,13 @@ print(f"His favorite snack after a long study session is {food}, preferably shar
 print(f"On weekends, you’ll find him lifting weights while listening to an {adj2} playlist, or binge-watching Avatar: The Last Airbender.")
 print(f"One day, Sudharshan hopes to build a tech tool so helpful that even {celebrity} would use it.")
 print(f"Until then, he’ll keep learning, playing basketball, and eating way too much {noun2}.")
+
+# The story using string concatenation
+# print("\n--- Sudharshan's Mad Lib Story ---\n")
+# print("Meet Sudharshan, a " + adj1 + " second-year computer science student at the University of Toronto.")
+# print("He spends his days juggling " + noun1 + ", solving math problems, and writing code that once " + verb_past + " an entire program.")
+# print("When he's not debugging, he's playing chess, watching the Oilers, or feeling incredibly " + emotion + " about a close game of " + game + ".")
+# print("His favorite snack after a long study session is " + food + ", preferably shared with friends at " + place + ".")
+# print("On weekends, you’ll find him lifting weights while listening to an " + adj2 + " playlist, or binge-watching Avatar: The Last Airbender.")
+# print("One day, Sudharshan hopes to build a tech tool so helpful that even " + celebrity + " would use it.")
+# print("Until then, he’ll keep learning, playing basketball, and eating way too much " + noun2 + ".")
