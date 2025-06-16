@@ -1,4 +1,4 @@
-# ** Jr. DEEP Coding ** 
+# Jr. DEEP Coding
 
 ![uoft_logo](https://github.com/user-attachments/assets/2c4ab744-8f74-4ca1-9ac4-88e6fa399501)
 
