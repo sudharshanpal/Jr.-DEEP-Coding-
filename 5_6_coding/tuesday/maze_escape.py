@@ -38,7 +38,8 @@ def move(direction, pos):
         print("You can't go that way!")
         return pos
 
-moves = 0
+
+num_moves = 0
 
 while items_found < 3:
     print(f"You are at position {player_pos}.")
@@ -49,9 +50,9 @@ while items_found < 3:
         continue
 
     new_pos = move(direction, player_pos)
-    moves += 1
+    num_moves += 1
     if maze[new_pos] == "coin":
-        print(f"You found a coin! This took you {moves} moves")
+        print(f"You found a coin! This took you {num_moves} moves")
         items_found += 1
         maze[new_pos] = ""
 
