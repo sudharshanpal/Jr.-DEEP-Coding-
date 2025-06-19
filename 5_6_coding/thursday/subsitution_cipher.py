@@ -30,6 +30,9 @@ def decrypt(cipher_txt):
             decrypt_txt += char
     return decrypt_txt
 
-print(encrypt("Hello how are you doing today"))
+cipher = encrypt("I love computer science")
+plain = decrypt(cipher)
 
-print(decrypt('kHOOR KRZ DUH bRX GRLQJ WRGDb'))
+with open("output.txt", "w") as file:
+    file.write("Cipher Text is: " + cipher + "\n")
+    file.write("Recovered plain text: " + plain + "\n")
