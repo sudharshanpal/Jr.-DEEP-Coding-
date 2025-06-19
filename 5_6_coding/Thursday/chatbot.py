@@ -6,11 +6,13 @@
 # 5. What fun things can i do?
 
 import requests
-
+from dotenv import load_dotenv
+import os
 # This function will pass your text to the machine learning model
 # and return the top result with the highest confidence
 def classify(text):
-    key = "b8d224b0-4d1f-11f0-8b39-c5e1c8b7b07892f12741-fff7-4a0a-a40c-56a25f3c8374"
+    load_dotenv()
+    key = os.getenv("API_KEY")
     url = "https://machinelearningforkids.co.uk/api/scratch/"+ key + "/classify"
 
     response = requests.get(url, params={ "data" : text })
