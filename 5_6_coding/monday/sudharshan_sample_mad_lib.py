@@ -28,7 +28,7 @@ print(f"On weekends, you’ll find him lifting weights while listening to an {ad
 print(f"One day, Sudharshan hopes to build a tech tool so helpful that even {celebrity} would use it.")
 print(f"Until then, he’ll keep learning, playing basketball, and eating way too much {noun2}.")
 
-# The story using string concatenation
+# The story using string concatenation (different way to do it with string concatenation)
 # print("\n--- Sudharshan's Mad Lib Story ---\n")
 # print("Meet Sudharshan, a " + adj1 + " second-year computer science student at the University of Toronto.")
 # print("He spends his days juggling " + noun1 + ", solving math problems, and writing code that once " + verb_past + " an entire program.")
