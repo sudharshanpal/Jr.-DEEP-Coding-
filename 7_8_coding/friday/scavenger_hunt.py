@@ -23,7 +23,7 @@ obstacles = []
 # Game variables
 score = 0
 high_score = 0
-speed = 10
+speed = 15
 spawn_rate = 2000  # milliseconds between spawns
 max_obstacles = 3
 game_over = False
@@ -168,7 +168,7 @@ def restart_game():
         return
     game_over = False
     score = 0
-    speed = 3
+    speed = 15
     max_obstacles = 3
     update_score()
     message_writer.clear()
