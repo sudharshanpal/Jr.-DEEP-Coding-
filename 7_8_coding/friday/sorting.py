@@ -23,7 +23,7 @@ def insertion_sort(n):
 
 selection_sort([5, 6, 0, 7, 8, 9])
 
-
+# use this to showcase the timeit function
 long_list = [
     23, 89, 1, 56, 45, 102, 77, 33, 91, 3, 67, 88, 14, 205, 39, 18, 60, 73, 81, 50,
     99, 34, 12, 6, 150, 121, 44, 10, 97, 22, 8, 200, 105, 31, 66, 49, 71, 109, 90, 17,
